@@ -1,0 +1,13 @@
+package ru.job4j.condition;
+
+public class Greeting {
+    public static void main(String[] args) {
+String idea = "I like Java!";
+idea = idea + " But I am a newbie.";
+String space = " ";
+idea = idea + (space);
+int year = 2023;
+idea = idea + (year);
+System.out.println(idea);
+    }
+}
